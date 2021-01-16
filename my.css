@@ -1,0 +1,89 @@
+body{
+    background: url('coffee.jpg') no-repeat center;
+    color: white;
+}
+
+h1{
+    font-size : 2rem;
+    color : brown;
+    text-align : center;
+}
+
+form{
+    border : solid white;
+    text-align: center;
+    font-size : 2rem;
+    align-items: center;
+}
+
+.container{
+    border : solid white;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 2rem;
+}
+
+
+.item{
+    border : solid white;
+    width : 100%;
+    height : 100%;
+    font-size : 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.item:hover{
+    background-color : black;
+}
+
+li{
+    font-size : 1rem;
+}
+
+input{
+    border : 0.2rem solid white;
+    font-size : 2rem;
+}
+
+@media(max-width: 400px){
+    form{
+        width: 100%;
+        height: 100%;
+        margin: 1rem;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .item{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1080px){
+
+    form{
+        width: 100%;
+        height: 100%;
+        margin: 1rem;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .item{
+        width: 100%;
+        height: 100%;
+    }
+}
